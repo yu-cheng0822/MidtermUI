@@ -85,7 +85,7 @@ The Timeline feature enables keyframe-based animations. Add keyframes at specifi
 
 ### Importing Assets
 
-Import images through File > Import or drag them directly into the project. Supported formats include PNG, JPG, SVG, and more. For 3D content, use FBX, GLTF, or USD formats. Qt Design Studio automatically optimizes assets during import, though manual optimization beforehand improves performance.
+Import images through File > Import or drag them directly into the project. Supported formats include PNG, JPG, SVG, and more. For 3D content, use FBX, glTF, or USD formats. Qt Design Studio automatically optimizes assets during import, though manual optimization beforehand improves performance.
 
 ### Asset Management
 
