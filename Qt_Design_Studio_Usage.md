@@ -1,131 +1,131 @@
-# Qt Design Studio Usage Guide
+# Qt Design Studio 使用指南
 
-## Introduction
+## 簡介
 
-Qt Design Studio is a powerful UI/UX design tool that enables designers and developers to create fluid, dynamic user interfaces for desktop, mobile, and embedded applications. It bridges the gap between design and development by allowing visual creation of QML-based interfaces without extensive coding knowledge.
+Qt Design Studio 是一款強大的 UI/UX 設計工具，讓設計師和開發人員能夠為桌面、行動裝置和嵌入式應用程式建立流暢、動態的使用者介面。它透過允許視覺化建立基於 QML 的介面，無需廣泛的程式設計知識，從而彌合了設計與開發之間的鴻溝。
 
-## Getting Started
+## 入門
 
-### Installation
+### 安裝
 
-Qt Design Studio can be installed through the Qt Online Installer from qt.io. The installer provides options to select specific Qt versions and components. Ensure your system meets minimum requirements: 8GB RAM, multi-core processor, and dedicated graphics card.
+Qt Design Studio 可以透過 qt.io 的 Qt 線上安裝程式進行安裝。安裝程式提供選擇特定 Qt 版本和元件的選項。請確保您的系統符合最低需求：8GB RAM、多核心處理器和專用顯示卡。
 
-### Initial Setup
+### 初始設定
 
-Upon first launch, Qt Design Studio presents a welcome screen with options to create new projects or open existing ones. The default workspace layout includes the Navigator, Library, Properties, and 2D/3D views. Customize this layout through View > Workspace to match your workflow preferences.
+首次啟動時，Qt Design Studio 會顯示歡迎畫面，其中包含建立新專案或開啟現有專案的選項。預設的工作區配置包括導覽器、程式庫、屬性和 2D/3D 檢視。透過檢視 > 工作區自訂此配置，以符合您的工作流程偏好。
 
-## Creating Your First Project
+## 建立您的第一個專案
 
-### Project Templates
+### 專案範本
 
-Qt Design Studio offers several project templates:
-- **3D Application**: For creating 3D interactive experiences
-- **2D Launcher**: Ideal for application launchers with smooth animations
-- **Empty Project**: Start from scratch with maximum flexibility
-- **Mobile Application**: Pre-configured for mobile development
-- **Desktop Application**: Optimized for desktop environments
+Qt Design Studio 提供多種專案範本：
+- **3D 應用程式**：用於建立 3D 互動體驗
+- **2D 啟動器**：適合具有流暢動畫的應用程式啟動器
+- **空白專案**：從頭開始，具有最大彈性
+- **行動應用程式**：為行動裝置開發預先設定
+- **桌面應用程式**：針對桌面環境最佳化
 
-Select a template based on your target platform and design requirements. Each template includes pre-configured components and settings to accelerate development.
+根據您的目標平台和設計需求選擇範本。每個範本都包含預先設定的元件和設定，以加速開發。
 
-### Project Structure
+### 專案結構
 
-A typical Qt Design Studio project contains:
-- **QML files**: Define UI components and behavior
-- **Asset files**: Images, fonts, and 3D models
-- **JavaScript files**: Handle business logic
-- **qtquickcontrols2.conf**: Configuration for Qt Quick Controls styling
+典型的 Qt Design Studio 專案包含：
+- **QML 檔案**：定義 UI 元件和行為
+- **資源檔案**：影像、字型和 3D 模型
+- **JavaScript 檔案**：處理業務邏輯
+- **qtquickcontrols2.conf**：Qt Quick Controls 樣式的設定檔
 
-## Interface Overview
+## 介面概覽
 
-### Navigator Panel
+### 導覽器面板
 
-The Navigator shows your UI hierarchy in a tree structure. Components can be dragged and reorganized here. Right-click for context menus offering common operations like grouping, alignment, and visibility toggling. The eye icon controls component visibility, while the lock icon prevents accidental modifications.
+導覽器以樹狀結構顯示您的 UI 階層。元件可以在此處拖曳和重新組織。按右鍵可開啟提供常見操作的快顯功能表，如群組、對齊和可見性切換。眼睛圖示控制元件可見性，而鎖定圖示可防止意外修改。
 
-### Library Panel
+### 程式庫面板
 
-The Library contains pre-built components organized into categories:
-- **Qt Quick Controls**: Buttons, sliders, text fields
-- **Qt Quick Studio Components**: Specialized design elements
-- **My Components**: Custom reusable components
-- **Assets**: Imported images and resources
+程式庫包含按類別組織的預建元件：
+- **Qt Quick Controls**：按鈕、滑桿、文字欄位
+- **Qt Quick Studio Components**：專門的設計元素
+- **我的元件**：自訂可重複使用的元件
+- **資源**：匯入的影像和資源
 
-Drag components from the Library directly onto the canvas or Navigator to add them to your design.
+從程式庫直接將元件拖曳到畫布或導覽器上，以將它們加入到您的設計中。
 
-### Properties Panel
+### 屬性面板
 
-The Properties panel displays all attributes of the selected component. Properties are organized into logical groups: Layout, Geometry, Character, Font, and Advanced. Use the color-coded indicators to identify modified properties. The binding icon allows property binding to create dynamic, responsive interfaces.
+屬性面板顯示所選元件的所有屬性。屬性被組織成邏輯群組：版面配置、幾何、字元、字型和進階。使用顏色編碼指示器來識別已修改的屬性。繫結圖示允許屬性繫結，以建立動態、回應式介面。
 
-### 2D View
+### 2D 檢視
 
-The 2D view is your primary design canvas. It supports zoom, pan, and snap-to-grid functionality. Multiple selection with Shift or Ctrl enables batch operations. Smart guides appear during positioning to help align elements precisely. The ruler system provides pixel-perfect control over element placement.
+2D 檢視是您的主要設計畫布。它支援縮放、平移和對齊網格功能。使用 Shift 或 Ctrl 進行多重選擇可啟用批次操作。定位時會出現智慧型參考線，以幫助精確對齊元素。尺規系統提供像素完美的元素放置控制。
 
-## Working with Components
+## 使用元件
 
-### Adding Components
+### 新增元件
 
-Components are added by dragging from the Library or using keyboard shortcuts. After placement, use the Properties panel to configure appearance and behavior. Common properties include:
-- **Position and size**: x, y, width, height
-- **Colors**: Background, border, text colors
-- **Typography**: Font family, size, weight, spacing
-- **Margins and padding**: Layout spacing control
+元件可透過從程式庫拖曳或使用鍵盤快速鍵來新增。放置後，使用屬性面板設定外觀和行為。常見屬性包括：
+- **位置和大小**：x、y、寬度、高度
+- **顏色**：背景、邊框、文字顏色
+- **版面設計**：字型系列、大小、粗細、間距
+- **邊距和填充**：版面配置間距控制
 
-### States and Transitions
+### 狀態和過渡
 
-States define different visual configurations of your UI. Create states through the States panel, modifying component properties in each state. Transitions animate changes between states smoothly. Configure transition duration, easing curves, and target properties for professional animations.
+狀態定義 UI 的不同視覺設定。透過狀態面板建立狀態，在每個狀態中修改元件屬性。過渡可平滑地動畫化狀態之間的變更。設定過渡持續時間、緩動曲線和目標屬性，以實現專業動畫效果。
 
-### Bindings and Expressions
+### 繫結和運算式
 
-Property bindings create dynamic relationships between components. For example, binding a button's enabled property to a text field's length creates automatic validation. Use JavaScript expressions for complex logic within bindings.
+屬性繫結在元件之間建立動態關係。例如，將按鈕的啟用屬性繫結到文字欄位的長度可建立自動驗證。在繫結中使用 JavaScript 運算式處理複雜邏輯。
 
-## Timeline and Animations
+## 時間軸和動畫
 
-The Timeline feature enables keyframe-based animations. Add keyframes at specific time points, modify properties, and Qt Design Studio automatically interpolates between them. Easing curves control animation feel—experiment with different curves to achieve the desired effect. Timeline groups help organize complex animation sequences.
+時間軸功能可實現基於關鍵影格的動畫。在特定時間點新增關鍵影格，修改屬性，Qt Design Studio 會自動在它們之間進行插值。緩動曲線控制動畫感覺——試驗不同的曲線以達到所需的效果。時間軸群組有助於組織複雜的動畫序列。
 
-## Working with Assets
+## 使用資源
 
-### Importing Assets
+### 匯入資源
 
-Import images through File > Import or drag them directly into the project. Supported formats include PNG, JPG, SVG, and more. For 3D content, use FBX, glTF, or USD formats. Qt Design Studio automatically optimizes assets during import, though manual optimization beforehand improves performance.
+透過檔案 > 匯入或直接將影像拖曳到專案中來匯入影像。支援的格式包括 PNG、JPG、SVG 等。對於 3D 內容，使用 FBX、glTF 或 USD 格式。Qt Design Studio 在匯入期間會自動最佳化資源，儘管事先手動最佳化可提高效能。
 
-### Asset Management
+### 資源管理
 
-Organize assets in the Assets panel using folders. Apply filters to locate specific resources quickly. Right-click assets to access export, replace, or property options. Remove unused assets periodically to maintain project cleanliness and reduce build size.
+使用資料夾在資源面板中組織資源。套用篩選器以快速找到特定資源。按右鍵資源以存取匯出、取代或屬性選項。定期移除未使用的資源，以保持專案整潔並減小建置大小。
 
-## Code Integration
+## 程式碼整合
 
-### Exporting to Qt Creator
+### 匯出到 Qt Creator
 
-Qt Design Studio projects seamlessly open in Qt Creator for code development. The separation between UI design and business logic promotes clean architecture. Designers work in Qt Design Studio while developers implement functionality in Qt Creator.
+Qt Design Studio 專案可無縫在 Qt Creator 中開啟以進行程式碼開發。UI 設計和業務邏輯之間的分離促進了乾淨的架構。設計師在 Qt Design Studio 中工作，而開發人員在 Qt Creator 中實作功能。
 
-### Custom Components
+### 自訂元件
 
-Create reusable custom components by right-clicking items in the Navigator and selecting "Create Component." Custom components appear in the Library for reuse across projects. This promotes consistency and accelerates development through component libraries.
+透過在導覽器中右鍵按一下項目並選擇「建立元件」來建立可重複使用的自訂元件。自訂元件會出現在程式庫中，可在專案中重複使用。這促進了一致性並透過元件程式庫加速開發。
 
-## Best Practices
+## 最佳實踐
 
-### Performance Optimization
+### 效能最佳化
 
-- Minimize the number of visible items in complex views
-- Use loaders for conditionally displayed content
-- Implement level-of-detail for 3D scenes
-- Cache rendered items when possible
-- Profile applications regularly to identify bottlenecks
+- 在複雜檢視中最小化可見項目的數量
+- 對有條件顯示的內容使用載入器
+- 為 3D 場景實作細節層級
+- 盡可能快取渲染的項目
+- 定期分析應用程式以識別瓶頸
 
-### Design Consistency
+### 設計一致性
 
-- Establish and maintain a design system with consistent spacing, colors, and typography
-- Use custom components for repeated UI patterns
-- Document component usage and properties
-- Create style guides for team collaboration
+- 建立並維護具有一致間距、顏色和版面設計的設計系統
+- 對重複的 UI 模式使用自訂元件
+- 記錄元件使用和屬性
+- 為團隊協作建立樣式指南
 
-### Workflow Tips
+### 工作流程提示
 
-- Save frequently and use version control
-- Test on target devices regularly
-- Use preview mode to verify interactions
-- Organize projects with clear naming conventions
-- Leverage Qt Design Studio's integrated preview for real-time feedback
+- 經常儲存並使用版本控制
+- 定期在目標裝置上測試
+- 使用預覽模式驗證互動
+- 使用清晰的命名慣例組織專案
+- 利用 Qt Design Studio 的整合預覽進行即時回饋
 
-## Conclusion
+## 結論
 
-Qt Design Studio empowers both designers and developers to create sophisticated, modern user interfaces efficiently. Its visual approach reduces development time while maintaining code quality through clean QML generation. By mastering its features—from basic component placement to advanced animations and 3D integration—you can deliver professional applications across multiple platforms. Regular practice and exploration of its extensive component library will enhance your proficiency and enable creation of increasingly complex, polished user experiences.
+Qt Design Studio 使設計師和開發人員能夠高效地建立精緻、現代的使用者介面。其視覺化方法透過乾淨的 QML 生成減少了開發時間，同時保持了程式碼品質。透過掌握其功能——從基本元件放置到進階動畫和 3D 整合——您可以在多個平台上提供專業應用程式。定期練習和探索其廣泛的元件程式庫將提升您的熟練度，並能夠建立越來越複雜、精美的使用者體驗。
